@@ -1,6 +1,6 @@
 # ShapeSplitter
 
-Processes a ASCII diagram (A visual shape made from '+', '-', '|' and whitespace characters) and splits the shape into its most minimal subshapes. If there are subshapes nested (fully enclosed in) other subshapes, then the parent subshape will be drawn with a hole that is the shape of the child subshape.
+Processes a ASCII diagram (A visual shape made from '+', '-', '|', newline characters and spaces) and splits the shape into its most minimal subshapes. If there are subshapes nested (fully enclosed in) other subshapes, then the parent subshape will be drawn with a hole that is the shape of the child subshape.
 
 Input: .txt file with a ASCII diagram. Some example inputs (shape1.txt, shape2.txt, shape3.txt) are provided.
 
